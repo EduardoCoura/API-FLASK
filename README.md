@@ -28,5 +28,31 @@ Configure suas variáveis de ambiente, se necessário.
 
 ## Executando a API
 Para iniciar a API, execute o seguinte comando:
-   ```bash
+```bash
    python app.py
+```
+A API estará disponível em http://127.0.0.1:5000/.
+
+## Endpoints
+Produtos:
+
+➣ `GET /produtos`: Retorna a lista de produtos.
+
+➣ `POST /produtos`: Adiciona um novo produto.
+
+➣ `GET /produtos/<id>`: Retorna detalhes de um produto específico.
+
+➣ `PUT /produtos/<id>`: Atualiza informações de um produto.
+
+➣ `DELETE /produtos/<id>`: Remove um produto.
+
+Carrinho:
+
+➣ `GET /carrinho`: Retorna os produtos no carrinho.
+
+➣ `POST /carrinho`: Adiciona um produto ao carrinho.
+
+➣ `DELETE /carrinho/<id>`: Remove um produto do carrinho.
+
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
