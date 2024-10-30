@@ -12,7 +12,7 @@ Uma API Flask para gerenciar produtos e carrinhos de compras em um sistema de e-
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/EduardoCoura/API-FLASK.git
 2. Navegue até o diretório do projeto:
    ```bash
    cd seu-repositorio
